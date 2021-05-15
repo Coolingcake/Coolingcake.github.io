@@ -47,7 +47,7 @@ body {
 .content{
 	position: relative;
 	margin-top: -350px;
-	
+	z-index: 99;
 }
 .content .navbar{
 	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
@@ -152,7 +152,7 @@ body {
 	border-radius: 50%;
 	color: #fff;
 	transition: all 0.4s ease-in-out;
-	
+	z-index: 999;
 }
 .back-to-top:hover{
 	color: #fff;
@@ -232,7 +232,7 @@ body {
     content: '';
     background: #F4F5F7;
     width: 100%;
-    
+    z-index: -1;
     transform: skew(0, -7deg);
     transform-origin: 100%;
     top: 16px;
