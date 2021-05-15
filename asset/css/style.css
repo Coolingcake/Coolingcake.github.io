@@ -232,7 +232,7 @@ body {
     content: '';
     background: #F4F5F7;
     width: 100%;
-    z-index: -1;
+    
     transform: skew(0, -7deg);
     transform-origin: 100%;
     top: 16px;
